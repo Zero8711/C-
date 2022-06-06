@@ -1,0 +1,17 @@
+﻿  main.cpp
+C:\Users\KCCI17\source\c++\p399\main.cpp(22,3): error C2248: 'Base::a': private 멤버('Base' 클래스에서 선언)에 액세스할 수 없습니다.
+C:\Users\KCCI17\source\c++\p399\main.cpp(5): message : 'Base::a' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(4): message : 'Base' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(23,11): error C2248: 'Base::setA': protected 멤버('Base' 클래스에서 선언)에 액세스할 수 없습니다.
+C:\Users\KCCI17\source\c++\p399\main.cpp(7): message : 'Base::setA' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(4): message : 'Base' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(24,10): error C2247: 'Base::showA'에 액세스할 수 없습니다. 이는 'Derived'이(가) 'private'을(를) 사용하여 'Base'에서 상속하기 때문입니다.
+C:\Users\KCCI17\source\c++\p399\main.cpp(9): message : 'Base::showA' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(12): message : 'Derived' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(4): message : 'Base' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(25,3): error C2248: 'Derived::b': private 멤버('Derived' 클래스에서 선언)에 액세스할 수 없습니다.
+C:\Users\KCCI17\source\c++\p399\main.cpp(13): message : 'Derived::b' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(12): message : 'Derived' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(26,11): error C2248: 'Derived::setB': protected 멤버('Derived' 클래스에서 선언)에 액세스할 수 없습니다.
+C:\Users\KCCI17\source\c++\p399\main.cpp(15): message : 'Derived::setB' 선언을 참조하십시오.
+C:\Users\KCCI17\source\c++\p399\main.cpp(12): message : 'Derived' 선언을 참조하십시오.
